@@ -15,10 +15,11 @@ public class positiveornegative {
             System.out.println("The Given input is positive");
         }
         else if(num<0) {
-            System.out.println("The Given Input is Negative");
+            System.out.println("The Given Input is Negative"); 
         }
         else {
             System.out.println("Zero Input");
+
         }
 
     }
