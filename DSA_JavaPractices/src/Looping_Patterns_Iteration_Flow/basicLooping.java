@@ -2,11 +2,15 @@ package Looping_Patterns_Iteration_Flow;
 
 public class basicLooping
 {
+    public static void main(String[] args) throws Exception {
 
-
-    int num = 1;
-
-    for(int i=1;i<;i++) {
-        for
-}
+        int n = 100;
+        System.out.print("Even Numbers from 1 to "+n+" are: ");
+        for (int i = 1; i <= n; i++) {
+            //if number%2 == 0 it means its an even number
+            if (i % 2 == 0) {
+                System.out.print(i + " ");
+            }
+        }
+    }
 }
