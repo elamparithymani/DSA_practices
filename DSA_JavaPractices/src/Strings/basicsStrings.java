@@ -8,5 +8,8 @@ public class basicsStrings {
         // Creating String using byte array
         String firstString = new String(ascii);
 
+        System.out.print(firstString);
+
     }
 }
+    
